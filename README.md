@@ -23,7 +23,7 @@ let package = Package(
 ```bash
 brew install --HEAD glfw3
 
-swift build -Xswiftc -I/user/local/include -Xlinker -L/user/local/lib
+swift build -Xswiftc -I/usr/local/include -Xlinker -L/usr/local/lib
 ```
 
 *Ubuntu:*
