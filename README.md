@@ -28,7 +28,7 @@ swift build -Xswiftc -I/usr/local/include -Xlinker -L/usr/local/lib
 
 *Ubuntu:*
 ```bash
-sudo apt install libglfw3
+sudo apt install libglfw3-dev
 
 swift build
 ```
