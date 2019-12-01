@@ -10,7 +10,7 @@ This is a package for the open source Swift. Usage:
 ```swift
 let package = Package(
     dependencies: [
-        .Package(url: "https://github.com/SwiftGL/CGLFW3.git", majorVersion: 2)
+        .package(url: "https://github.com/SwiftGL/CGLFW3.git", from: "2.0.1")
     ]
 )
 ```
